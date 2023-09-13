@@ -1,0 +1,15 @@
+{
+  "name": "test-connector",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "ntli build -a",
+    "dev": "ntli dev -c",
+    "preview": "ntli preview"
+  },
+  "dependencies": {
+    "@netlify/sdk": "^1.0.1",
+    "typescript": "^5.2.2"
+  }
+}
